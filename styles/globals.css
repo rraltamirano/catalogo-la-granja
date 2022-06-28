@@ -1,6 +1,7 @@
 html,
 body {
-  background-color: #f0eedc !important;
+  background-image: url("../public/img/fondo1.jpg") !important;
+  /* background-color: #f0eedc !important; */
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

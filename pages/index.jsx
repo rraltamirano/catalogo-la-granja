@@ -35,7 +35,7 @@ export default function Home() {
           (
             productos.map((producto) =>
               (
-                <Tarjeta key={producto.id}/>
+                <Tarjeta key={producto.id} data={producto}/>
               ))
             
           ):(

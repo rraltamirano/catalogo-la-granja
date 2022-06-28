@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
 
-const Tarjeta = () => {
+const Tarjeta = ({data}) => {
 
     const [ticket, setTicket] = useState({
-        id:'123',
-        type:'embutidos',
-        name:'salchichas de pollo',
-        description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        image:'/img/prueba1.jpeg'
+        id: data.id,
+        type: data.type,
+        name: data.name,
+        description: data.description,
+        image: data.image
     });
 
     return (
-        <div className="col-sm-12 col-lg-6 ">
-            <div className="card">
+        <div className="col-sm-12 col-lg-6 my-2">
+            <div className="card border-primary">
                 <Image 
                     className="card-img-top" 
                     priority
@@ -22,12 +22,11 @@ const Tarjeta = () => {
                     width={300}
                     alt={ticket.name}
                 />
-                <div className="card-header">
+                <div className="card-header text-center">
                     <h5 className='card-title'>{ticket.name}</h5>
                 </div>
                 <div className="card-body">
                     <p className="card-text">{ticket.description}</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
