@@ -1,0 +1,33 @@
+[
+    {
+        "id":"123",
+        "nombre":"pollo",
+        "descripcion":"descripcion pollo",
+        "img":"/img/nombre-imagen"
+    },
+    {
+        "id":"2",
+        "nombre":"pollo radioactivo",
+        "descripcion":"solopara valientes",
+        "img":"/img/imagen-pollo-radiactivo"
+    },
+    {
+        "id":"3",
+        "nombre":"pollo",
+        "descripcion":"descripcion pollo",
+        "img":"/img/nombre-imagen"
+    },
+    {
+        "id":"4",
+        "nombre":"pollo",
+        "descripcion":"descripcion pollo",
+        "img":"/img/nombre-imagen"
+    },
+    {
+        "id":"5",
+        "nombre":"pollo",
+        "descripcion":"descripcion pollo",
+        "img":"/img/nombre-imagen"
+    }
+
+]
