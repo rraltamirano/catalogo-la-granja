@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import Tarjeta from '../components/Tarjeta';
 
+const key='index';
+
 export default function Home() {
 
   const [productos, setProductos] = useState([]);
@@ -29,7 +31,7 @@ export default function Home() {
   },[]);
 
   return (
-    <Layout>
+    <Layout pageKey={key}>
       <div className='row col-lg-12'>
         {productos.length > 0 ?
           (

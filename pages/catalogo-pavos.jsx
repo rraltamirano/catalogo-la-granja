@@ -1,9 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const Catalogo2 = () => {
+const key = 'catalogo-pavos';
+
+const CatalogoPavos = () => {
   return (
-    <Layout>
+    <Layout pageKey={key}>
         <div>
             Catalogo 2
         </div>
@@ -11,4 +13,4 @@ const Catalogo2 = () => {
   )
 }
 
-export default Catalogo2
+export default CatalogoPavos

@@ -12,10 +12,38 @@ body {
   box-sizing: border-box;
 }
 
+.lgdp-active-page {
+  color:#f1c250 !important;
+}
+
 .lgdp-bg-primary-color {
   background-color: #f0eedc;
 }
 
 .lgdp-bg-color {
   background-color: #c91919;
+}
+
+.lgdp-btn-pedido {
+  position: fixed;
+  width: 170px;
+  height: 50px;
+  right: 5px;
+  bottom: 5px;
+  color: white;
+  background-color: #00a783 ;
+  border: 2px solid #ffffff ;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lgdp-btn-pedido:hover {
+  background-color: #01795f ;
+}
+
+.lgdp-btn-pedido i {
+  font-size: 25px;
+  margin-right: 5px;
 }

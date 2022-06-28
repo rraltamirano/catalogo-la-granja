@@ -2,7 +2,15 @@ import React from 'react';
 import NavBar from  './NavBar';
 import Image from 'next/image';
 
-const Layout = ({children}) => {
+const numero = '70386627';
+const whatsappUrl = `https://wa.me/591${numero}?text=Me+gustaria+hacer+un+pedido`;
+
+const Layout = ({pageKey, children}) => {
+
+  const makeAnOrder = () => {
+    window.open(whatsappUrl);
+  }
+
   return (
     <div>
         <div className='text-center lgdp-bg-color'>
@@ -14,10 +22,13 @@ const Layout = ({children}) => {
                 alt='La granja'
             />
         </div>
-        <NavBar />
+        <NavBar activePage={pageKey}/>
         <main className='container my-5'>
             {children}
         </main>
+        <button className='lgdp-btn-pedido' onClick={makeAnOrder}>
+          <i className="fab fa-whatsapp"></i>Realiza tu pedido
+        </button>
     </div>
   )
 }
