@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const NavBar = ({activePage}) => {
   return (
-    <nav className="navbar navbar-expand-lg lgdp-bg-color">
+    <nav className="navbar navbar-expand-lg lgdp-bg-color sticky-top">
         <div className="container-fluid">
             <button className="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i className="fas fa-bars"></i>
