@@ -2,7 +2,7 @@
     {
         "id":"1",
         "type":"pollos",
-        "name":"pollos",
+        "name":"pollo-1",
         "precio":"23Bs",
         "description":"descripcion pollo",
         "image":"/img/prueba1.jpeg"
@@ -10,64 +10,64 @@
     {
         "id":"2",
         "type":"pavos",
-        "precio":"23Bs",
         "name":"pollo radioactivo",
+        "precio":"23Bs",
         "description":"solopara valientes",
         "image":"/img/prueba1.jpeg"
     },
     {
         "id":"3",
         "type":"huevos",
+        "name":"huevo 1",
         "precio":"23Bs",
-        "name":"pollo",
         "description":"descripcion pollo",
         "image":"/img/prueba1.jpeg"
     },
     {
         "id":"4",
         "type":"pollos",
+        "name":"pollo-2",
         "precio":"23Bs",
-        "name":"pollo",
         "description":"descripcion pollo",
         "image":"/img/prueba1.jpeg"
     },
     {
         "id":"5",
         "type":"pavos",
+        "name":"pavo-2",
         "precio":"23Bs",
-        "name":"pollo",
         "description":"descripcion pollo",
         "image":"/img/logo_granja_2.jpeg"
     },
     {
         "id":"6",
         "type":"huevos",
+        "name":"huevo-2",
         "precio":"23Bs",
-        "name":"pollo",
         "description":"descripcion pollo",
         "image":"/img/logo_granja_2.jpeg"
     },
     {
         "id":"7",
         "type":"pollos",
+        "name":"pollo 3",
         "precio":"23Bs",
-        "name":"pollo",
         "description":"descripcion pollo",
         "image":"/img/prueba1.jpeg"
     },
     {
         "id":"8",
         "type":"pavos",
+        "name":"pavo 3",
         "precio":"23Bs",
-        "name":"pollo",
         "description":"descripcion pollo",
         "image":"/img/logo_granja_2.jpeg"
     },
     {
         "id":"9",
         "type":"huevos",
+        "name":"huevo 3",
         "precio":"23Bs",
-        "name":"pollo",
         "description":"descripcion pollo",
         "image":"/img/logo_granja_2.jpeg"
     }

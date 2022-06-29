@@ -12,8 +12,10 @@ const Layout = ({pageKey, children}) => {
     window.open(whatsappUrl);
   }
 
+  const mainContainerClass = pageKey == 'index' ? 'main-container' : ''; 
+
   return (
-    <div>
+    <div className={mainContainerClass}>
         <div className='text-center lgdp-bg-color'>
             <Image
                 priority

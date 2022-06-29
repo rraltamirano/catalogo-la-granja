@@ -12,6 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+.main-container {
+  background-color: #00ffff38;
+}
+
 .lgdp-active-page {
   color:#f1c250 !important;
 }
@@ -57,4 +61,8 @@ body {
 .lgdp-footer-icon {
   font-size: 25px;
   cursor: pointer;
+}
+
+.lgdp-bg-card {
+  background-color: #ffffff61 !important;
 }
