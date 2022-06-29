@@ -320,5 +320,49 @@
             "Refrigerado tiene una duración aproximada de un mes."
         ],
         "image":"/img/huevos_30_unidades.jpg"
+    },
+
+
+
+    {
+        "id":"22",
+        "type":"pollos",
+        "name":"Hamburguesa casera",
+        "price":"Bs/kg",
+        "weight":"0.45 kg - 0.7 kg",
+        "description": [
+            "Pollo preparado con receta casera para hamburguesa.",
+            "Empaquetado hermético en bandeja.",
+            "Congelado.",
+            "Refrigerado a bajas temperaturas tiene una duración de un mes."
+        ],
+        "image":"/img/h-casera.png"
+    },
+    {
+        "id":"23",
+        "type":"pollos",
+        "name":"Hamburguesa tradicional",
+        "price":"Bs/kg",
+        "weight":"0.45 kg - 0.7 kg",
+        "description": [
+            "Pollo preparado con receta tradicional para hamburguesa.",
+            "Empaquetado hermético en bandeja.",
+            "Congelado.",
+            "Refrigerado a bajas temperaturas tiene una duración de un mes."
+        ],
+        "image":"/img/h-tradicional.jpg"
+    },
+    {
+        "id":"24",
+        "type":"pollos",
+        "name":"Milanesa de pollo",
+        "price":"Bs/kg",
+        "weight":"0.45 kg - 0.7 kg",
+        "description": [
+            "Pollo preparado para milanesa con pan duro.",
+            "Empaquetado hermético en bandeja.",
+            "Refrigerado a bajas temperaturas tiene una duración de un mes."
+        ],
+        "image":"/img/milanesa_de_pollo.jpg"
     }
 ]

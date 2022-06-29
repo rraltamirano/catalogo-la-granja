@@ -8,7 +8,8 @@ const Tarjeta = ({data, tipoProducto}) => {
         id: data.id,
         type: data.type,
         name: data.name,
-        precio: data.precio,
+        price: data.price,
+        weight: data.weight,
         description: data.description,
         image: data.image
     });
@@ -30,7 +31,14 @@ const Tarjeta = ({data, tipoProducto}) => {
                     <h5 className='card-title'>{ticket.name}</h5>
                 </div>
                 <div className="card-body bg-transparent">
-                    <h6>{ticket.precio}</h6>
+                    <h6>{ticket.price}</h6>
+                    {ticket.weight ? 
+                        <div className='row'>
+                            <div className='col-2'><h6> Peso:</h6></div> <div className='col-10'> {ticket.weight}</div>
+                        </div>
+                        :<></>
+                    }
+                    <h6>Caracteristicas:</h6> 
                     <ul>
                         {ticket.description.map((puntos, index) => (
                             <li key={index}>{puntos}</li>
