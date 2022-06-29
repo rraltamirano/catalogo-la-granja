@@ -35,7 +35,7 @@ const ListaProductos = ({tipo}) => {
                 (
                     productos.map((producto) =>
                     (
-                        <Tarjeta key={producto.id} data={producto}/>
+                        <Tarjeta key={producto.id} data={producto} tipoProducto={tipo}/>
                     ))
                     
                 ):(

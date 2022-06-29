@@ -12,8 +12,16 @@ body {
   box-sizing: border-box;
 }
 
-.main-container {
-  background-color: #00ffff38;
+.main-container-pollos {
+  background-color: #00627b59;
+}
+
+.main-container-pavos {
+  background-color: #1818165e;
+}
+
+.main-container-huevos {
+  background-color: #ffce0470;
 }
 
 .lgdp-active-page {

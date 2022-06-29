@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <Layout pageKey={key}>
-      <ListaProductos tipo={ProductoTipo.POLLOS}/>    
+      <ListaProductos tipo={ProductoTipo.POLLOS}/>   
     </Layout>
   )
 }

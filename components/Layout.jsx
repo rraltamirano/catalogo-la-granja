@@ -12,7 +12,7 @@ const Layout = ({pageKey, children}) => {
     window.open(whatsappUrl);
   }
 
-  const mainContainerClass = pageKey == 'index' ? 'main-container' : ''; 
+  const mainContainerClass = pageKey == 'index' ? 'main-container-pollos' : pageKey == 'catalogo-pavos' ? 'main-container-pavos' : 'main-container-huevos'; 
 
   return (
     <div className={mainContainerClass}>
