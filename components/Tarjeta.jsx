@@ -34,7 +34,7 @@ const Tarjeta = ({data, tipoProducto}) => {
                     <h6>{ticket.price}</h6>
                     {ticket.weight ? 
                         <div className='row'>
-                            <div className='col-2'><h6> Peso:</h6></div> <div className='col-10'> {ticket.weight}</div>
+                            <div className='col-3'><h6> Peso:</h6></div> <div className='col-9'> {ticket.weight}</div>
                         </div>
                         :<></>
                     }
