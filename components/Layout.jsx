@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from  './NavBar';
 import Image from 'next/image';
+import Footer from './Footer';
 
 const numero = '70386627';
 const whatsappUrl = `https://wa.me/591${numero}?text=Me+gustaria+hacer+un+pedido`;
@@ -26,6 +27,7 @@ const Layout = ({pageKey, children}) => {
         <main className='container my-5'>
             {children}
         </main>
+        <Footer />
         <button className='lgdp-btn-pedido' onClick={makeAnOrder}>
           <i className="fab fa-whatsapp"></i>Realiza tu pedido
         </button>

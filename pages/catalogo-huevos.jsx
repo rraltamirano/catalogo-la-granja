@@ -1,9 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
+const key = 'catalogo-huevos';
+
 const CatalogoHuevos = () => {
   return (
-    <Layout>
+    <Layout pageKey={key}>
         <div>
             CatalogoHuevos
         </div>

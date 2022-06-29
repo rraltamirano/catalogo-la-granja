@@ -1,15 +1,15 @@
 [
     {
-        "id":"123",
+        "id":"1",
+        "type":"pollos",
         "name":"pollo",
         "precio":"23Bs",
-        "type":"embutidos",
         "description":"descripcion pollo",
         "image":"/img/prueba1.jpeg"
     },
     {
         "id":"2",
-        "type":"embutidos",
+        "type":"pavos",
         "precio":"23Bs",
         "name":"pollo radioactivo",
         "description":"solopara valientes",
@@ -17,7 +17,7 @@
     },
     {
         "id":"3",
-        "type":"embutidos",
+        "type":"huevos",
         "precio":"23Bs",
         "name":"pollo",
         "description":"descripcion pollo",
@@ -25,7 +25,7 @@
     },
     {
         "id":"4",
-        "type":"embutidos",
+        "type":"pollos",
         "precio":"23Bs",
         "name":"pollo",
         "description":"descripcion pollo",
@@ -33,10 +33,42 @@
     },
     {
         "id":"5",
-        "type":"embutidos",
+        "type":"pavos",
+        "precio":"23Bs",
+        "name":"pollo",
+        "description":"descripcion pollo",
+        "image":"/img/logo_granja_2.jpeg"
+    },
+    {
+        "id":"6",
+        "type":"huevos",
+        "precio":"23Bs",
+        "name":"pollo",
+        "description":"descripcion pollo",
+        "image":"/img/logo_granja_2.jpeg"
+    },
+    {
+        "id":"7",
+        "type":"pollos",
         "precio":"23Bs",
         "name":"pollo",
         "description":"descripcion pollo",
         "image":"/img/prueba1.jpeg"
+    },
+    {
+        "id":"8",
+        "type":"pavos",
+        "precio":"23Bs",
+        "name":"pollo",
+        "description":"descripcion pollo",
+        "image":"/img/logo_granja_2.jpeg"
+    },
+    {
+        "id":"9",
+        "type":"huevos",
+        "precio":"23Bs",
+        "name":"pollo",
+        "description":"descripcion pollo",
+        "image":"/img/logo_granja_2.jpeg"
     }
 ]
