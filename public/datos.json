@@ -2,7 +2,7 @@
     {
         "id":"1",
         "type":"pollos",
-        "name":"pollo",
+        "name":"pollos",
         "precio":"23Bs",
         "description":"descripcion pollo",
         "image":"/img/prueba1.jpeg"

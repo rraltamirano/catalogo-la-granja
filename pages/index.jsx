@@ -42,7 +42,7 @@ export default function Home() {
             
           ):(
             <div>
-              <h1>No hay productos disponibles</h1>
+              <h1>Loading...</h1>
             </div>
           )
         }

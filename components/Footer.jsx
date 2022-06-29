@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <footer className='lgdp-footer text-white align-middle'>
             <div className='container row align-items-center h-100'>
-                <div className='col-6'>
+                <div className='col-lg-6 col-sm-12'>
                     <div>
                         <h6 className='mb-0'>Contactos:</h6>
                         <div className='mx-2'>
@@ -26,7 +26,7 @@ const Footer = () => {
                         </div> 
                     </div>
                 </div>
-                <div className='col-6 '>
+                <div className='col-lg-6 col-sm-12 mt-2'>
                     <h6>Visita nuestras redes sociales:</h6>
                     <div className='mx-2'>
                         <i className="fab fa-facebook lgdp-footer-icon" onClick={() => {toSocialNetwok(facebookLink)}}></i>

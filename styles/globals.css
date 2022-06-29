@@ -50,7 +50,8 @@ body {
 
 .lgdp-footer {
   background-color: #00637b;
-  height: 100px;
+  height: 100%;
+  padding-top: 5px;
 }
 
 .lgdp-footer-icon {
