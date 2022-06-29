@@ -2,73 +2,323 @@
     {
         "id":"1",
         "type":"pollos",
-        "name":"pollo-1",
-        "precio":"23Bs",
-        "description":"descripcion pollo",
-        "image":"/img/prueba1.jpeg"
+        "name":"Pollo entero",
+        "price":"Bs/kg",
+        "weight":"Entre 1.90 kg a 2.5 kg",
+        "description": [
+            "Pollo entero con menudencias.",
+            "Empaque práctico de polietileno",
+            "Fresco y refrigerado.",
+            "Ideal para preparado casero.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/pollo_entero.png"
     },
     {
         "id":"2",
-        "type":"pavos",
-        "name":"pollo radioactivo",
-        "precio":"23Bs",
-        "description":"solopara valientes",
-        "image":"/img/prueba1.jpeg"
+        "type":"pollos",
+        "name":"Pollo entero especial",
+        "price":"Bs/kg",
+        "weight":"Entre 1.90 kg a 2.5 kg",
+        "description": [
+            "Pollo entero sin menudencias y preparado.",
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal para un para un pollo relleno, al horno, al espiedo, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/pollo_entero_especial.jpg"
     },
     {
         "id":"3",
-        "type":"huevos",
-        "name":"huevo 1",
-        "precio":"23Bs",
-        "description":"descripcion pollo",
-        "image":"/img/prueba1.jpeg"
+        "type":"pollos",
+        "name":"Pollo entero trozado",
+        "price":"Bs/kg",
+        "weight":"Entre 1.6 kg a 1.90 kg",
+        "description": [
+            "Pollo entero trozado sin menudencias.",
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal y listo para cualquier platillo.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/pollo_entero_trozado.jpg"
     },
     {
         "id":"4",
         "type":"pollos",
-        "name":"pollo-2",
-        "precio":"23Bs",
-        "description":"descripcion pollo",
-        "image":"/img/prueba1.jpeg"
+        "name":"Filete de pollo",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Filete de pollo sin grasa de la parte del pecho.",
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal y listo para platillos como milanesas, pavita, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/filete_de_pollo.jpg"
     },
     {
         "id":"5",
-        "type":"pavos",
-        "name":"pavo-2",
-        "precio":"23Bs",
-        "description":"descripcion pollo",
-        "image":"/img/logo_granja_2.jpeg"
+        "type":"pollos",
+        "name":"Filete delgado de pollo",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Filete delgado de pollo sin grasa de la parte del pecho",
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal y listo para platillos como milanesas, pavita, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/filete_delgado_de_pollo.jpg"
     },
     {
         "id":"6",
-        "type":"huevos",
-        "name":"huevo-2",
-        "precio":"23Bs",
-        "description":"descripcion pollo",
-        "image":"/img/logo_granja_2.jpeg"
+        "type":"pollos",
+        "name":"Pechuga de pollo con piel",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal para platillos como milanesas, pavita, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/pechuga_de_pollo_con_piel.jpg"
     },
     {
         "id":"7",
         "type":"pollos",
-        "name":"pollo 3",
-        "precio":"23Bs",
-        "description":"descripcion pollo",
-        "image":"/img/prueba1.jpeg"
+        "name":"Pechuga de pollo sin piel",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal para platillos como milanesas, pavita, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/pechuga_de_pollo_sin_piel.jpg"
     },
     {
         "id":"8",
-        "type":"pavos",
-        "name":"pavo 3",
-        "precio":"23Bs",
-        "description":"descripcion pollo",
-        "image":"/img/logo_granja_2.jpeg"
+        "type":"pollos",
+        "name":"Pierna y muslo de pollo con piel",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal y listo para platillos como picante de pollo, etc",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/pierna_y_muslo_de_pollo_con_piel.jpg"
     },
     {
         "id":"9",
+        "type":"pollos",
+        "name":"Pierna de pollo suelta",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal y listo para platillos como picante de pollo, piernitas de pollo fritas, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/pierna_de_pollo_suelta.jpg"
+    },
+    {
+        "id":"10",
+        "type":"pollos",
+        "name":"Muslo de pollo suelto",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal para platillos como muslo de pollo al limón, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/muslo_de_pollo_suelto.jpg"
+    },
+    {
+        "id":"11",
+        "type":"pollos",
+        "name":"Alitas enteras",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal para platillos como alitas con salsa BBQ, miel y mostaza, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/alitas_enteras.jpg"
+    },
+    {
+        "id":"12",
+        "type":"pollos",
+        "name":"Medias alas de pollo",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal para platillos como alitas con salsa BBQ, miel y mostaza, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/medias_alas_de_pollo.jpg"
+    },
+    {
+        "id":"13",
+        "type":"pollos",
+        "name":"Muslos de ala de pollo",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal para platillos como tulipanes de pollo, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/muslos_de_ala_de_pollo.jpg"
+    },
+    {
+        "id":"14",
+        "type":"pollos",
+        "name":"Carne molida de pollo",
+        "price":"Bs/kg",
+        "weight":"0.45 kg – 0.7 kg",
+        "description": [
+            "Empaquetado hermético en bandeja",
+            "Fresco y refrigerado.",
+            "Ideal para platillos como albóndigas de pollo, hamburguesa de pollo, etc.",
+            "Una porción de 250 gr contiene un aproximado de 47 g de proteína.",
+            "Refrigerado tiene una duración aproximada de 5 días una vez empaquetado."
+        ],
+        "image":"/img/carne_molida_de_pollo.jpg"
+    },
+    {
+        "id":"15",
+        "type":"pavos",
+        "name":"Muslitos de pavo",
+        "price":"Bs/kg",
+        "weight":"0.90kg - 1.10 kg",
+        "description": [
+            "Muslos de ala de pavo con hueso",
+            "Empaquetado hermético.",
+            "Congelado.",
+            "Ideal y listo para cualquier platillo.",
+            "Bajo contenido en grasa.",
+            "Refrigerado tiene una duración aproximada de 1 año una vez empaquetado."
+        ],
+        "image":"/img/muslitos_de_pavo.jpg"
+    },
+    {
+        "id":"16",
+        "type":"pavos",
+        "name":"Filete de pavo",
+        "price":"Bs/kg",
+        "weight":"0.90kg - 1.10 kg",
+        "description": [
+            "Filete de pavo sin hueso y sin grasa.",
+            "Empaquetado hermético.",
+            "Congelado.",
+            "Ideal y listo para cualquier platillo.",
+            "Refrigerado tiene una duración aproximada de 1 año una vez empaquetado."
+        ],
+        "image":"/img/filete_de_pavo.jpg"
+    },
+    {
+        "id":"17",
+        "type":"pavos",
+        "name":"Medallones de pavo",
+        "price":"Bs/kg",
+        "weight":"0.90kg - 1.10 kg",
+        "description": [
+            "Filetes de pechuga de pavo con hueso.",
+            "Empaquetado hermético.",
+            "Congelado.",
+            "Ideal y listo para cualquier platillo.",
+            "Bajo contenido en grasa.",
+            "Refrigerado tiene una duración aproximada de 1 año una vez empaquetado."
+        ],
+        "image":"/img/medallones_de_pavo.jpg"
+    },
+    {
+        "id":"18",
+        "type":"pavos",
+        "name":"Piernas de pavo",
+        "price":"Bs/kg",
+        "weight":"0.90kg - 1.10 kg",
+        "description": [
+            "Piernas de pavo con hueso.",
+            "Empaquetado hermético.",
+            "Congelado.",
+            "Ideal para cualquier platillo.",
+            "Refrigerado tiene una duración aproximada de 1 año una vez empaquetado."
+        ],
+        "image":"/img/piernas_de_pavo.jpg"
+    },
+    {
+        "id":"19",
+        "type":"pavos",
+        "name":"Muslos de pavo",
+        "price":"Bs/kg",
+        "weight":"0.90kg - 1.10 kg",
+        "description": [
+            "Muslos de pavo con hueso.",
+            "Empaquetado hermético.",
+            "Congelado.",
+            "Ideal para cualquier platillo.",
+            "Refrigerado tiene una duración aproximada de 1 año una vez empaquetado."
+        ],
+        "image":"/img/muslos_de_pavo.jpg"
+    },
+    {
+        "id":"20",
         "type":"huevos",
-        "name":"huevo 3",
-        "precio":"23Bs",
-        "description":"descripcion pollo",
-        "image":"/img/logo_granja_2.jpeg"
+        "name":"Huevo de 12 unidades",
+        "price":"Bs/kg",
+        "weight":"",
+        "description": [
+            "Empaque resistente y seguro.",
+            "Fresco.",
+            "Ideal para preparado casero.",
+            "Una gran fuente de proteínas, incluyendo vitaminas A, B y D, además de ser fuente de calcio.",
+            "Refrigerado tiene una duración aproximada de un mes."
+        ],
+        "image":"/img/huevos_12_unidades.jpg"
+    },
+    {
+        "id":"21",
+        "type":"huevos",
+        "name":"Huevo de 30 unidades",
+        "price":"Bs/kg",
+        "weight":"",
+        "description": [
+            "Huevo en maple resistente.",
+            "Fresco.",
+            "Ideal para preparado casero.",
+            "Una gran fuente de proteínas, incluyendo vitaminas A, B y D, además de ser fuente de calcio.",
+            "Refrigerado tiene una duración aproximada de un mes."
+        ],
+        "image":"/img/huevos_30_unidades.jpg"
     }
 ]

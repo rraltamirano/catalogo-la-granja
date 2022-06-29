@@ -31,7 +31,11 @@ const Tarjeta = ({data, tipoProducto}) => {
                 </div>
                 <div className="card-body bg-transparent">
                     <h6>{ticket.precio}</h6>
-                    <p className="card-text">{ticket.description}</p>
+                    <ul>
+                        {ticket.description.map((puntos, index) => (
+                            <li key={index}>{puntos}</li>
+                        ))}
+                    </ul>
                 </div>
             </div>
         </div>
